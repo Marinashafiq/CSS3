@@ -1,0 +1,351 @@
+body{
+	background-image: url("rucksack.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	font-family: Raleway;
+
+}
+
+@font-face{
+    font-family: Raleway;
+    src:url(Raleway/Raleway-Medium.ttf);
+}
+
+
+header{
+	
+	margin: 0;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100vh;
+
+}
+
+/********************************nav ************************/
+
+header nav{
+
+	width:80%;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+header nav h2{
+	color:white;
+	margin: 0px;
+	display: inline-block;
+}
+
+header nav a{
+	text-decoration: none;
+	padding-left: 20px;
+	color: white;
+	float: right;
+}
+
+header nav a:hover{
+	display: inline-block;
+	border: 2px solid #76c38f ;
+	background-color: #76c38f;
+	border-radius:8px;
+}
+
+/**************************HEADER *********************/
+
+.parent{
+
+	width:80%;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	margin-top: 15vh;
+}
+
+.parent i{
+	color:#76c38f;
+	padding: 40px;
+	margin-top: 20vh;
+}
+
+header article p{
+	width:50%;
+}
+
+header article a{
+	
+	text-decoration: none;
+	color: white;
+		
+}
+
+
+header article a:hover{
+	
+	border: 2px solid #76c38f ;
+	background-color: #76c38f;
+	padding: 10px;
+	border-radius: 8px;
+	
+}
+
+header .parent article{
+	color:white;
+	display: inline-block;
+	align-self: center;
+  	
+}
+
+.circle{
+
+	width: 350px;
+	height: 350px;
+	border:25px solid #6b6b6b;
+	border-radius: 50%;
+	background-image: url("brooke.jpg");
+	background-size: cover;
+	
+}
+
+/************************************SERVICE TITLE *******************/
+
+.section2{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.figure1{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+	color: 	#303030;
+	text-align: center;
+}
+
+.figure1 figure{
+	width: 25%;
+}
+
+figure{
+	
+	background-color: white;
+	padding:15px;
+	
+}
+
+
+
+figure:hover{
+background-color: #76c38f;
+}
+
+figure:hover figcaption ,figure:hover p ,figure:hover i{
+	color: white;
+}
+
+
+.figure1 figure figcaption{
+	font-size: 20px;
+}
+
+
+/*******************************************Latest WORK ***************************/
+
+section.latest{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+
+section h2{
+	display: inline-block;
+	text-align: center;
+	background-color: #303030;
+	color: white;
+	border: 2px solid #303030;
+	border-radius: 8px; 
+	padding: 10px;
+}
+
+.figure2 .img1{
+	background-image: url("felipe-santana-.jpg");
+}
+
+
+.figure2 .img2{
+	background-image: url("aashish-r-gautam.jpg");
+}
+.figure2 .img3{
+	background-image: url("paulette-wooten.jpg");
+}
+.figure3 .img4{
+	background-image: url("ilnur-kalimullin.jpg");
+}
+.figure3 .img5{
+	background-image: url("justin-luebke.jpg");
+}
+.figure3 .img6{
+	background-image: url("luis-alfonso.jpg");
+}
+
+.figure2{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.figure2 figure{
+	width: 33.33%;
+}
+
+
+
+.figure2 figure{
+	position: relative;
+	background-size: cover;
+	filter: grayscale(100%);
+	border: 5px solid white;
+	width: 33.33%;
+	height: 20vh;
+}
+
+
+.figure2 figure figcaption{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:rgba(0,0,0,.8);
+	text-align: center;
+	padding: 10px;
+	color: white;
+
+}
+
+.figure2 figure:hover figcaption{
+	visibility: hidden;
+	
+}
+
+.figure3{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.figure3 figure{
+	position: relative;
+	background-image: url("luis-alfonso.jpg");
+	background-size: cover;
+	filter: grayscale(100%);
+	border: 5px solid white;
+	width: 33.33%;
+	height: 20vh;
+}
+
+.figure3 figure:hover{
+	filter: grayscale(0);
+	border: 5px solid #76c38f;
+}
+
+.figure2 figure:hover{
+	filter: grayscale(0);
+	border: 5px solid #76c38f;
+}
+
+
+
+.figure3 figure figcaption{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:rgba(0,0,0,.8);
+	text-align: center;
+	padding: 10px;
+	color: white;
+
+}
+
+.figure3 figure:hover figcaption{
+	visibility: hidden;
+	
+}
+
+
+/********************footer **********************/
+
+footer{
+	background-color: #303030 ;
+	color:	#686868;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer section{
+	width: 25%;
+	margin: 20px;
+	
+}
+
+.footer section p{
+	text-align: left;
+}
+
+
+.footer section div{
+	width: auto;
+	height: 30px;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 8px;
+	margin-top: 10px
+}
+
+.footer section div.message
+{
+	height: 80px;
+}
+
+button {
+    background-color: #76c38f;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.f1 .read{
+	color: #76c38f
+}
+.f2 p{
+
+	border-bottom: .5px solid 	#383838;
+	padding-bottom: 10px; 
+	color: #76c38f;
+}
+
+.f2 p span{
+	color: 	#686868;
+}
+
+.f3 span{
+	color: #76c38f;
+}
+
